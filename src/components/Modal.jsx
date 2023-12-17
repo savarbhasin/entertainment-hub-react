@@ -1,6 +1,6 @@
 import React, { useContext,useEffect } from 'react'
 import AppContext from '../context/AppContext'
-const api_key = '72f882f93d04364c2151768541b804ac'
+
 const Modal = (item) => {
     const {posts,fetchData} = useContext(AppContext)
     useEffect(() =>{
