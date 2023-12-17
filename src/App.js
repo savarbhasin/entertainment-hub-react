@@ -9,7 +9,7 @@ import { useContext, useEffect, useState } from 'react';
 import { AppContext } from './context/AppContext';
 import { useSearchParams } from 'react-router-dom';
 import Search from './pages/Search';
-const api_key='72f882f93d04364c2151768541b804ac'
+const api_key=''
 function App() {
   const {fetchData} = useContext(AppContext);
   const location = useLocation();
