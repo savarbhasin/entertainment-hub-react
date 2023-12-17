@@ -1,6 +1,5 @@
 import { useContext, useEffect, useState } from "react";
 import { AppContext } from "../context/AppContext";
-const api_key='72f882f93d04364c2151768541b804ac'
 const useGenre = (type)=>{
     const [genreData,setGenreData] = useState(null)
     const [genres,setGenres] = useState([])
